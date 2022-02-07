@@ -226,3 +226,13 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+<<<<<<< HEAD
+=======
+
+# fastbootd
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fastbootd.available=true
+
+# Now Playing
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
