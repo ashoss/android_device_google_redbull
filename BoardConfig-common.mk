@@ -479,6 +479,9 @@ DEVICE_MATRIX_FILE := device/google/redbull/compatibility_matrix.xml
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
+# Reserve space
+include device/google/redbull/BoardConfigReservedSize.mk
+
 # dynamic partition
 BOARD_SUPER_PARTITION_SIZE := 9755951104
 BOARD_SUPER_PARTITION_GROUPS := google_dynamic_partitions
