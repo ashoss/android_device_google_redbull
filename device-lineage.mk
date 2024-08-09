@@ -249,5 +249,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.fastbootd.available=true
 
 # Now Playing
-PRODUCT_PACKAGES += \
-    NowPlayingOverlay
+#PRODUCT_PACKAGES += \
+#    NowPlayingOverlay

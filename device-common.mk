@@ -39,7 +39,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google_nos/test/system-test-harness
 
 # Specify clang version
-TARGET_KERNEL_CLANG_VERSION := r487747c
+#TARGET_KERNEL_CLANG_VERSION := r487747c
 
 # Include GPS soong namespace
 PRODUCT_SOONG_NAMESPACES += \
