@@ -5,8 +5,7 @@ type modem_dump_file, file_type, data_file_type;
 type tcpdump_vendor_data_file, file_type, data_file_type, mlstrustedobject;
 type ramoops_vendor_data_file, file_type, data_file_type, mlstrustedobject;
 type proc_touch, proc_type, fs_type, mlstrustedobject;
-type debugfs_batteryinfo, debugfs_type, fs_type;
-type sysfs_chargelevel, sysfs_type, fs_type;
+
 type sysfs_display, sysfs_type, fs_type;
 type sysfs_touch, sysfs_type, fs_type;
 type sysfs_power_stats_ignore, sysfs_type, fs_type;
@@ -50,4 +49,4 @@ type updated_wifi_firmware_data_file, file_type, data_file_type;
 type firmware_file, file_type, contextmount_type, vendor_file_type;
 allow firmware_file self:filesystem associate;
 
-type sysfs_wlc, sysfs_type, fs_type;
+

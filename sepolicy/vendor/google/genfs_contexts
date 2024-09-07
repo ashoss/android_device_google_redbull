@@ -104,12 +104,7 @@ genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-1/1-003b/power_supply       
 genfscon sysfs /devices/platform/soc/1d84000.ufshc/health_descriptor            u:object_r:sysfs_scsi_devices_0000:s0
 genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:     u:object_r:sysfs_scsi_devices_0000:s0
 genfscon sysfs /class/qcom-battery                                              u:object_r:sysfs_batteryinfo:s0
-genfscon debugfs /logbuffer/ssoc                                                u:object_r:debugfs_batteryinfo:s0
-genfscon debugfs /logbuffer/ttf                                                 u:object_r:debugfs_batteryinfo:s0
-genfscon debugfs /logbuffer/wireless                                            u:object_r:debugfs_batteryinfo:s0
-genfscon debugfs /logbuffer/rtx                                                 u:object_r:debugfs_batteryinfo:s0
-genfscon debugfs /google_charger                                                u:object_r:debugfs_batteryinfo:s0
-genfscon debugfs /google_battery                                                u:object_r:debugfs_batteryinfo:s0
+
 genfscon sysfs /devices/platform/soc/soc:google,charger/charge_start_level      u:object_r:sysfs_chargelevel:s0
 genfscon sysfs /devices/platform/soc/soc:google,charger/charge_stop_level       u:object_r:sysfs_chargelevel:s0
 genfscon sysfs /devices/platform/soc/soc:google,charger/bd_drainto_soc          u:object_r:sysfs_chargelevel:s0
